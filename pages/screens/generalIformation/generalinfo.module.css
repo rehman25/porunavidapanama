@@ -1,0 +1,134 @@
+.container{
+    width: 100vw;
+    /* height: 200vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-color: #b66d7d;
+    background-size: cover;
+    background: linear-gradient(rgba(182, 109, 125, .8), rgba(182, 109, 125, .8)), url('../../images/InformacionGeneral.jpg') 50%;
+    background-size: contain;
+    background-position-y: top;
+
+}
+.row{
+    padding-top:270px;
+    
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.col h1{
+    color: white;
+    font-size: 4.0107137143vw;
+    line-height: 4.0107137143vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.col p{
+    font-size: 1.3369045714vw;
+    line-height: 1.25;
+    width: 44.7916666667vw;
+    font-weight: 600;
+    margin: 0 auto 2.7083333333vw;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.Generalmage{
+    width: 33.34375vw;
+    height: 23vh;
+    margin-top: 20px;
+}
+
+.col6 h1{
+    border-radius: 25px;
+    color: #fff;
+    background-color: #e5b1b5;
+    font-weight: 500;
+    font-size: 1.4260315429vw;
+    line-height: 1.4260315429vw;
+    width: 41.875vw;
+    height: 3.125vw;
+    padding: .7291666667vw 1.6666666667vw 2.2916666667vw;
+}
+
+.row2{
+    margin-top: 60px;
+}
+
+.col6 ul li {
+    padding-bottom: 1.7708333333vw;
+    background: url('../../images/ulMarker.svg') no-repeat left 1px;
+    padding-left: 2em;
+    background-size: 1em;
+    font-size: 1.1586506286vw;
+    line-height: 1.4260315429vw;
+    font-weight: 500;
+    list-style: none;
+    letter-spacing: 1px;
+}
+
+.col6 ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.childul{
+    margin-top: 25px;
+}
+.childul li{
+    background-image: url("") !important;
+    list-style: circle !important;
+    background-size: 1em !important;
+    font-size: 1.1586506286vw !important;
+    line-height: 1.4260315429vw !important;
+    font-weight: 500 !important; 
+    padding-bottom: 1px !important;
+    letter-spacing: 1px;
+
+}
+
+.col6 p{
+    margin-top: 0.5vw;
+    display: inline-block;
+    font-style: italic;
+    font-size: 1.0249601714vw;
+    line-height: 1.25;
+    max-width: 32.8125vw;
+    margin-left: 2rem;
+}
+
+.Footer{
+    background-color: #f4e0d9;
+    padding: 3rem 0px;
+}
+
+.footerHeadingg{
+    color: #b66d7d;
+    font-weight: 600;
+    font-size: 4.0107137143vw;
+    line-height: 4.0107137143vw;
+    text-align: center;
+}
+
+.footerImage{
+    width: 20.5208333333vw;
+}
+.footerImageRow{
+    padding: 20px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

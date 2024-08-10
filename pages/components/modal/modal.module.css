@@ -1,0 +1,98 @@
+.container{
+    background-color: rgba(10, 10, 10, .86);
+    opacity: 2;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 40;
+    width: 100%;
+ 
+}
+
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.box{
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+    padding: 3.125vw 4.1666666667vw;
+    text-align: left;
+    border-radius: 30px;
+    width: 40vw;
+}
+
+.box h3{
+    font-size: 1.6042854857vw;
+    font-weight: 600;
+    color: #b66d7d;
+    margin-bottom: 2.0833333333vw;
+    margin-left: 2.0833333333vw;
+}
+.box ul li{
+    background: url("../../images/marker_E5B1B5.svg") no-repeat left 5px;
+    padding-left: 2.5vw;
+    background-size: 1.25vw;
+    font-size: 1.0249601714vw;
+    line-height: 1.0249601714vw;
+    color: #7f7e7e;
+    font-weight: 500;
+    min-height: 1.25vw;
+    background-position-y: center;
+    margin-bottom: 1.7708333333vw;
+    list-style: none;
+}
+
+.btnRow button{
+    flex: 1 1;
+    width: 50%;
+    font-size: 1.2477776vw;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 1.0416666667vw;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 1.4583333333vw;
+    background-color: #e5b1b5;
+}
+.btnRow .btn{
+    flex: 1 1;
+    width: 50%;
+    font-size: 1.2477776vw;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 30px;
+    border: none;
+    padding: 1.0416666667vw;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-right: 1.4583333333vw;
+    background-color: #7f7e7e;
+}
+.btnRow{
+    display: flex;
+    margin-left: 2.0833333333vw;
+
+}
+.col12{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    padding-bottom: 0px !important;
+}
+.cross{
+    cursor: pointer;
+}

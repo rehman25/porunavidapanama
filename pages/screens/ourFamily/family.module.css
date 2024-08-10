@@ -1,0 +1,92 @@
+.container{
+    width: 100vw;
+    /* height: 200vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-size: cover;
+    background: linear-gradient(rgba(244, 224, 217, .8), rgba(244, 224, 217, .8)), url('../../images/NuestraFamilia.jpg') top;
+    background-size: cover;
+    background-position-x: 23%;
+    background-size: cover;
+    padding: 80px;
+
+}
+.row{
+    padding-top:10px;
+    
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+
+
+}
+
+.col h1{
+    color: #b66d7d;
+    font-family: montserat 'sans-serif';
+    font-size: 4.0107137143vw;
+    line-height: 4.0107137143vw;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.circleRow{
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+}
+.cricle{
+    background-color: #b66d7d;
+    border-radius: 50%;
+    width: 9.5833333333vw;
+    height: 9.5833333333vw;
+    color: #fff;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cricle h1{
+    font-size: 3.2531344571vw;
+    line-height: 1;
+    font-weight: bolder;
+}
+.cricle p{
+    font-size: .6684522857vw;
+    line-height: 1.25;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    text-align: center;
+}
+
+.contentRow{
+    display: flex;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content h1{
+    font-size: 1.7825394286vw;
+    font-weight: 600 !important;
+    margin-top: 10px !important;
+}
+
+.NuestraImage{
+    width: 30.7291666667vw;
+    height: auto;
+}

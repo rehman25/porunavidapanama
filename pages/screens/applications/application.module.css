@@ -1,0 +1,36 @@
+.container{
+    background-color: #b66d7d;
+    position: relative;
+    /* height: 1000vh; */
+
+}
+.container::before{
+    content: " ";
+    position: absolute;
+    top: 54vw;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(rgba(182, 109, 125, .6980392157), rgba(182, 109, 125, .6980392157)), url("../../images/CorazonesFondo.png") 50%;
+    background-size: 120vw;
+    background-position: top;
+}
+
+.col h1{
+    font-size: 4.0107137143vw;
+    line-height: 4.0107137143vw;
+    color: white !important;
+    margin-top: 280px;
+    text-align: center;
+}
+
+.col p{
+    text-align: center;
+    width: 47.3958333333vw;
+    margin: auto auto 3.3333333333vw;
+    font-size: 1.3369045714vw;
+    line-height: 1.25;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 50px;
+
+}

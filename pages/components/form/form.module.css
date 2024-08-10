@@ -1,0 +1,108 @@
+.form{
+    background-color: #f7f7f7;
+    border-radius: 30px;
+    margin: auto auto 18.9583333333vw;
+    width: 52.2916666667vw;
+    padding: 4.5833333333vw 4.5833333333vw 6.4583333333vw;
+    z-index: 9;
+}
+.formgroup label{
+    color: #7f7e7e;
+    font-weight: 600;
+}
+
+.formgroup h1{
+    color: #7f7e7e;
+    font-weight: 600;
+    font-size: 1.6042854857vw;
+
+} 
+
+.formgroup2 label{
+    color: #7f7e7e;
+    font-weight: 600;
+}
+.formgroup input{
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 15px;
+    color: #363636;
+}
+
+.formgroup p{
+    color: #7f7e7e;
+    font-size: .8912697143vw;
+    font-weight: 600;
+}
+.formgroupbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formgroupbtn button{
+    background-color: #e5b1b5;
+    border: none;
+    color: #fff;
+    width: 14.2708333333vw;
+    height: 3.125vw;
+    font-size: 1.2477776vw;
+    font-weight: 600;
+    margin-top: 3.0208333333vw;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.formgroup textarea{
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 15px;
+    color: #363636;
+}
+
+.formgroup select{
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 15px;
+    color: #363636;
+    
+}
+
+.check input{
+    margin-left: 10px;
+}
+.check label{
+    margin-left: 2px;
+}
+
+.formgroup2{
+    display: flex;
+    flex-direction: column;
+}
+
+.formgroup2 input{
+    background-color: #fff;
+    border-color: #dbdbdb;
+    border-radius: 15px;
+    color: #363636;
+}
+
+.formgroup2 div{
+    display: flex !important;
+    flex-direction: row !important;
+}
+
+.formgroup3{
+    display: flex;
+    flex-direction: column;
+}
+
+.formColumn{
+    display: flex;
+    flex-direction: column;
+}
+
+.formColHeading{
+    color: #7f7e7e;
+    font-weight: 600;
+    font-size: 1.6042854857vw;
+    margin: 40px 0px;
+}
