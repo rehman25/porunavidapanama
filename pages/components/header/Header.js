@@ -78,36 +78,40 @@ const Header = ({ color }) => {
         <div className={`row ${style.rowRes}`}>
             
               <div className={`col-12 ${style.menu}`}>
-                    <IoMdMenu size={34} color="white" onClick={() =>{setIsMenu(!isMenu)}} />
+                    <IoMdMenu size={34} color={color === "id" ? "#a05062"  : "white"} onClick={() =>{setIsMenu(!isMenu)}} />
               </div>
 
-              {isMenu ?
-                <div className={`col-lg-8 ${style.colRes}`}>
-                <div className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}>
-                        <Link href="../screens/generalIformation" className={style.Link}>
-                          General information
-                        </Link>
-                </div>
-                <div className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}
-                >
-                  <Link href="../screens/ourFamily" className={style.Link}>
-                  Nuestra Familia
-                  </Link>
-                </div>
-                <div
-                 className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}
-                >
-                  <Link href="../screens/applications" className={style.Link}>
-                  Aplicaciones
-                  </Link>
-                </div>
-                <div
-                 className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}
-                >
-                  <Link href="../screens/contact" className={style.Link}>
-                  Contáctanos
-                  </Link>
-                </div>
+                      {isMenu ?
+                        <div className={`col-lg-8 ${style.colRes}`}>
+                        <div className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}>
+                                <Link href="../screens/generalIformation" className={style.Link}>
+                                  General information
+                                </Link>
+                        </div>
+                        <div className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}
+                        >
+                          <Link href="../screens/ourFamily" className={style.Link}>
+                          Nuestra Familia
+                          </Link>
+                        </div>
+                        <div
+                        className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}
+                        >
+                          <Link href="../screens/applications" className={style.Link}>
+                          Aplicaciones
+                          </Link>
+                        </div>
+                        <div
+                        className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}
+                        >
+                          <Link href="../screens/contact" className={style.Link}>
+                          Contáctanos
+                          </Link>
+                        </div>
+                      </div>
+                      : ""}
+
+
                 <div
                   className={` ${color === "id" ? style.HeaderColRes3 : style.HeaderColRes32 }`}
                 >
@@ -116,8 +120,6 @@ const Header = ({ color }) => {
                     className={style.LogoRes}
                   />
                 </div>
-              </div>
-              : ""}
             
         </div>
       </div>

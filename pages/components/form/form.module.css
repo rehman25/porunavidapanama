@@ -62,11 +62,11 @@
     font-size: 2.1140871429vw;
 }
 .check input {
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .check label {
-    margin-left: 2px;
+    /* margin-left: 2px; */
     letter-spacing: 1px;
 }
 .listCheck span{
@@ -74,7 +74,7 @@
   flex-direction: row
 }
 .listCheck span label{
-    margin-left: 5px;
+    /* margin-left: 5px; */
 }
 .formgroup2 {
     display: flex;
@@ -103,7 +103,7 @@
 
 .set{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 /* Responsive styles */
@@ -136,6 +136,11 @@
         flex-direction: row;
         flex-wrap: wrap;
       }
+      .lableC{
+        color: #7f7e7e;
+        font-weight: 600;
+        font-size: 3.1140871429vw;
+    }
     .form {
         width: 90vw;
         padding: 5vw 5vw 7vw;

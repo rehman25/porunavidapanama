@@ -2,6 +2,7 @@
 import React,{useState} from 'react'
 import style from './modal.module.css'
 import { GiTireIronCross } from "react-icons/gi";
+import Link from 'next/link';
 
 
 const modal = () => {
@@ -29,7 +30,7 @@ const modal = () => {
               </ul>
               <div className={style.btnRow}>
                 <button onClick={() => setShowModal(false)}>ACEPTAR</button>
-                <button className={style.btn} onClick={() => setShowModal(false)}>REGRESAR</button>
+                <Link className={style.btn} href={"/"}>REGRESAR</Link>
               </div>
             </div>
           </div>

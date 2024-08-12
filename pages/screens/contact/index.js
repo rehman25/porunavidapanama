@@ -10,7 +10,7 @@ const contact = () => {
         <div className="container">
           <div className={`row ${style.row}`}>
             <div className={`col-12 ${style.col}`}>
-                <h1>Contact Us</h1>
+                <h1>Contáctanos</h1>
             </div>
             <div className={`col-12 ${style.col}`}>
               <form className={style.form}>

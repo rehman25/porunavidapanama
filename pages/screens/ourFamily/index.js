@@ -2,7 +2,10 @@ import React from "react";
 import style from "./family.module.css";
 import Header from "../../components/header/Header";
 import Image from "next/image";
-import Heart from "../../images/speech-bubble.svg";
+import Heart from "../../images/family1-output.svg";
+import Heart2 from "../../images/family2-output.svg";
+
+import Family1 from "../../images/family3png.png";
 import Nuestra from "../../images/Nuestra.png";
 import GeneralInformation from "../../images/generalInformation.png";
 import ClinicaIVI from "../../images/ClinicaIVI.svg";
@@ -68,7 +71,7 @@ const family = () => {
                 <h2>Abby</h2>
               </div>
               <div className={` ${style.content}`}>
-                <Image src={Heart} />
+                <Image src={Heart2} />
                 <h2>Ethan</h2>
               </div>
               <div className={` ${style.content}`}>
@@ -76,42 +79,47 @@ const family = () => {
               </div>
             </div>
           </div>
-          
+          <div className={`row ${style.contentRow}`}>
+            <div className={`col-12 ${style.colImage}`}>
+            <div className={`${style.content2}`}>
+              <Image src={Heart2} />
+              <h2>Eric</h2>
+            </div>
+            <div className={`${style.content2}`}>
+              <Image src={Heart} />
+              <h2>Mia</h2>
+            </div>
+            <div className={`${style.content2}`}>
+              <Image src={Heart} />
+              <h2>Milena</h2>
+            </div>
+            <div className={`${style.content2}`}>
+              <Image src={Heart} />
+              <h2>Issa</h2>
+            </div>
+            </div>
+            
+          </div>
           <div className={`row ${style.contentRow}`}>
             <div className={`col-12 ${style.colImage}`}>
             <div className={`${style.content}`}>
               <Image src={Nuestra} className={style.NuestraImage} />
             </div>
-            <div className={`${style.content}`}>
-              <Image src={Heart} />
-              <h2>Abby</h2>
+            <div className={` ${style.content}`}>
+              <div className={style.double}>
+                <Image src={Heart} />
+                <Image src={Heart2} />
+
+              </div>
+              <h2>Niah y Noah</h2>
             </div>
             <div className={`${style.content}`}>
               <Image src={Heart} />
               <h2>Ethan</h2>
             </div>
             </div>
-          </div><div className={`row ${style.contentRow}`}>
-            <div className={`col-12 ${style.colImage}`}>
-            <div className={`${style.content2}`}>
-              <Image src={Heart} />
-              <h2>Kaythleen</h2>
-            </div>
-            <div className={`${style.content2}`}>
-              <Image src={Heart} />
-              <h2>Sheryl</h2>
-            </div>
-            <div className={`${style.content2}`}>
-              <Image src={Heart} />
-              <h2>Caleb</h2>
-            </div>
-            <div className={`${style.content2}`}>
-              <Image src={Heart} />
-              <h2>Chritopher</h2>
-            </div>
-            </div>
-            
           </div>
+         
           <div className={`row ${style.contentRow}`}>
             <div className={`col-12 ${style.colImage}`}>
             <div className={`${style.content2}`}>
@@ -123,7 +131,7 @@ const family = () => {
               <h2>Sheryl</h2>
             </div>
             <div className={`${style.content2}`}>
-              <Image src={Heart} />
+              <Image src={Family1} className={style.heartImage} />
               <h2>Caleb</h2>
             </div>
             <div className={`${style.content2}`}>
@@ -136,11 +144,11 @@ const family = () => {
           <div className={`row ${style.contentRow}`}>
             <div className={`col-12 ${style.colImage}`}>
               <div className={` ${style.content}`}>
-                <Image src={Heart} />
+                <Image src={Heart2} />
                 <h2>Abby</h2>
               </div>
               <div className={` ${style.content}`}>
-                <Image src={Heart} />
+                <Image src={Heart2} />
                 <h2>Ethan</h2>
               </div>
               <div className={` ${style.content}`}>
@@ -154,11 +162,15 @@ const family = () => {
                 <Image src={Nuestra} className={style.NuestraImage} />
               </div>
               <div className={` ${style.content}`}>
+              <div className={style.double}>
                 <Image src={Heart} />
+                <Image src={Heart2} />
+
+              </div>
                 <h2>Abby</h2>
               </div>
               <div className={` ${style.content}`}>
-                <Image src={Heart} />
+                <Image src={Family1} className={style.heartImage} />
                 <h2>Ethan</h2>
               </div>
             

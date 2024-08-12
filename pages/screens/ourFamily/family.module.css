@@ -54,9 +54,14 @@
 
 .colImage{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
+}
+
+.double{
+    display: flex;
+
 }
 .cricle{
     background-color: #b66d7d;
@@ -81,12 +86,14 @@
     padding-right: 1.5rem !important;
     padding-left: 1.5rem !important;
     text-align: center;
+    margin: 0px;
 }
 
 .contentRow{
     display: flex;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 100px;
+    
 }
 
 .content{
@@ -122,6 +129,11 @@
 .NuestraImage{
     width: 25.7291666667vw;
     height: auto;
+}
+
+.heartImage{
+    width: 150px;
+    height: 108px;
 }
 
 
@@ -186,6 +198,9 @@
 }
 
 @media screen and (max-width:667px) {
+    .colImage{
+        justify-content: center;
+    }
     .cricle{
         width: 20.5833333333vw;
         height: 20.5833333333vw;

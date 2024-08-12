@@ -73,6 +73,8 @@
 }
 
 .btnRow .btn {
+    text-align: center;
+    text-decoration: none;
     background-color: #7f7e7e;
 }
 

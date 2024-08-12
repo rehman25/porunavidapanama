@@ -70,6 +70,7 @@
 .col6 ul li {
     padding-bottom: 1.7708333333vw;
     background: url('../../images/ulMarker.svg') no-repeat left 1px;
+    background-repeat: no-repeat;
     padding-left: 2em;
     background-size: 1em;
     font-size: 1.1586506286vw;
@@ -111,6 +112,7 @@
 .Footer{
     background-color: #f4e0d9;
     padding: 3rem 0px;
+    
 }
 
 .footerHeadingg{
@@ -122,11 +124,11 @@
 }
 
 .footerImage{
-    width: 20.5208333333vw;
+    width: 15.5208333333vw;
+    margin: 0px 20px;
 }
 .footerImageRow{
     padding: 20px;
-    padding-left: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,6 +138,8 @@
 @media screen and (max-width:480px) {
     .col h1{
         font-size: 12.010714vw;
+        width: 80.875vw;
+
     }
     .col p{
         font-size: 4.010714vw;
@@ -149,11 +153,16 @@
     }
     .footerImageRow{
         padding: 20px;
-        padding-left: 0px;
         display: flex;
         align-items: center;
-        flex-direction: column;
         justify-content: center;
+    }
+    .listing {
+        flex: 0 0 auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin: 10px 0px;
     }
 
 }
@@ -161,7 +170,9 @@
 
 @media screen and (max-width:787px) {
     .col h1{
-        font-size: 14.010714vw;
+        font-size: 7.010714vw;
+        width: 80.875vw;
+
         
     }
     .col p{
@@ -182,7 +193,7 @@
         font-weight: 500;
         font-size: 2.426032vw;
         line-height: 1.4260315429vw;
-        /* width: 44.875vw; */
+        width: 80.875vw;
         height: 6.125vw;
         padding: 2.729167vw 1.6666666667vw 2.2916666667vw;
     
@@ -204,5 +215,14 @@
     }
     .col6 p{
         font-size: 2.02496vw;
+    }
+    .footerImageRow{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .footerImage{
+        width: 40.5208vw;
+        margin: 0px 10px;
     }
 }

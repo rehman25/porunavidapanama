@@ -1,6 +1,6 @@
 .container {
     background-color: #f4e0d8;
-    height: 100vh;
+    height: 69.9vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,7 @@
 .row {
     display: flex;
     flex-direction: row;
+
     height: 100%;
 }
 
@@ -27,18 +28,13 @@
     text-align: center;
     color: #be7786;
     font-weight: 600;
-    font-size: 1.559722vw;
+    font-size: 1.5rem;
     position: absolute;
     top: 0;
     bottom: 0;
     margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     right: 13.125vw;
     width: 34.375vw;
-    z-index: 999999 !important;
 }
 
 .box {
@@ -48,7 +44,8 @@
 .box p {
     text-align: center;
     color: #be7786;
-    font-size: 18px;
+    font-size: 1.4rem;
+
     font-weight: 600;
     z-index: 99;
     letter-spacing: 1px;
@@ -58,8 +55,37 @@
     margin: 10px 0px;
 }
 
-/* Tablet responsive design */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
+    .container {
+        height: 100vh;
+    }
+
+    .box {
+        margin-top: 50px;
+    }
+
+    .left {
+        width: 100vw;
+    }
+
+    .right {
+        font-size: 2rem;
+        right: 10vw;
+        width: 75vw;
+        left: 0;
+        top:0;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .left {
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
     .left {
         width: 50vw;
         padding: 30px;
@@ -68,41 +94,20 @@
     .right {
         width: 40vw;
         right: 10vw;
-        font-size: 3vw;
+        font-size: 2.5rem;
     }
 
     .box {
         margin-top: 150px;
     }
-}
+} */
 
-/* Mobile responsive design */
-@media only screen and (max-width: 480px) {
-    .row {
-        flex-direction: column;
-    }
+/* */
 
-    .left {
-        width: 78vw;
-        height: 40vh;
-        padding: 20px;
-        background-position: center;
-    }
+@media screen and (max-width: 480px) {
 
-    .right {
-        position: static;
-        width: 100vw;
-        font-size: 5vw;
-        padding: 20px;
-        text-align: center;
-        margin-top: 20px;
+    .box{
+        margin-top: 150px;
     }
-
-    .box {
-        margin-top: 50px;
-    }
-
-    .box p {
-        font-size: 4vw;
-    }
+    
 }

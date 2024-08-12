@@ -37,7 +37,7 @@ const form = () => {
         </div>
         <div className={`col-md-6 form-group my-2 mt-4 ${style.formgroup}`}>
           <label htmlFor="name">Fecha de Nacimiento</label>
-          <input type="Date" id="email" name="email" className="form-control" />
+          <input type="Date" id="email" name="email" className="form-control" placeholder="mm/dd/yy" />
         </div>
       </div>
       <div className="row mt-4">
@@ -113,7 +113,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Casada</label>
             </span>
@@ -122,7 +122,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Divorciada</label>
             </span>
@@ -133,7 +133,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Soltera</label>
             </span>
@@ -142,7 +142,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Unida</label>
             </span>
@@ -209,7 +209,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>SI</label>
             </span>
@@ -218,7 +218,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -232,7 +232,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>SI</label>
             </span>
@@ -241,7 +241,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -265,7 +265,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -274,7 +274,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>
               Propios</label>
@@ -284,7 +284,7 @@ const form = () => {
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>
 Adoptados
@@ -295,7 +295,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Hijastros (as)</label>
             </span>
@@ -304,7 +304,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>
               Fallecidos</label>
@@ -323,7 +323,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -332,7 +332,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -356,7 +356,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -365,7 +365,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -381,7 +381,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -390,7 +390,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -406,7 +406,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -415,7 +415,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -429,7 +429,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -438,7 +438,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -454,7 +454,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -463,7 +463,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -477,7 +477,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -486,7 +486,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -559,7 +559,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -568,7 +568,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -584,7 +584,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -593,7 +593,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -618,7 +618,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -627,7 +627,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -654,7 +654,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -663,7 +663,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -683,12 +683,118 @@ Adoptados
           />
         </div>
       </div>
+      <div className="row mt-4">
+        <div className={`col-md-12 form-group my-2 ${style.formgroup2} `}>
+          <label htmlFor="name">
+          Embarazo Previo
+          </label>
+          <div className="">
+            <span className={style.check}>
+              <input
+                type="Radio"
+                id="name"
+                name="name"
+                className="form-check-input mx-1"
+              />
+              <label>Si</label>
+            </span>
+            <span className={style.check}>
+              <input
+                type="Radio"
+                id="name"
+                name="name"
+                className="form-check-input mx-1"
+              />
+              <label>No</label>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="row mt-4">
+        <h1 className={style.formColHeading}>ANTECEDENTES MÉDICOS</h1>
+        <div className={style.formColumn}>
+       
+          <div className={`col-md-6 form-group my-2 ${style.formgroup}`}>
+            <label htmlFor="name">En caso de haber sido tratada antes</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="form-control"
+              placeholder="clinica"
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="form-control mt-2"
+              placeholder="Doctor/a"
+
+            />
+            <input
+              type="Date"
+              id="email"
+              name="email"
+              className="form-control mt-2"
+              placeholder="Doctor/a"
+
+            />
+          </div>
+        </div>
+      </div>
+      <div className="row mt-4">
+        <div className={style.formColumn}>
+       
+          <div className={`col-md-12 form-group my-2 ${style.formgroup}`}>
+            <label htmlFor="name">Descripción del tratamiento o datos relevantes</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="form-control"
+              placeholder="clinica"
+            />
+        
+          </div>
+        </div>
+      </div>
+      <div className="row mt-4">
+        <h1 className={style.formColHeading}>ANTECEDENTES MÉDICOS</h1>
+        <div className={style.formColumn}>
+       
+          <div className={`col-md-6 form-group my-2 ${style.formgroup}`}>
+            <label htmlFor="name">Ha sido tratada por otra Clínica o Médico adicional</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="form-control"
+              placeholder="clinica"
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              className="form-control mt-2"
+              placeholder="Doctor/a"
+
+            />
+            <input
+              type="Date"
+              id="email"
+              name="email"
+              className="form-control mt-2"
+              placeholder="Doctor/a"
+
+            />
+          </div>
+        </div>
+      </div>
 
       <div className="row mt-4">
         <div className={`col-md-12 form-group my-2 ${style.formgroup}`}>
           <label htmlFor="name">
-            Are you currently taking any medication? Since when? What is the
-            reason?
+          ¿Toma algún medicamento actualmente? ¿Desde cuándo? ¿Cuál es el motivo?
           </label>
           <textarea rows={3} className="form-control" />
         </div>
@@ -792,7 +898,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Casada</label>
             </span>
@@ -801,7 +907,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Divorciada</label>
             </span>
@@ -812,7 +918,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Soltera</label>
             </span>
@@ -821,7 +927,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Unida</label>
             </span>
@@ -888,7 +994,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>SI</label>
             </span>
@@ -897,7 +1003,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -911,7 +1017,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>SI</label>
             </span>
@@ -920,7 +1026,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -944,7 +1050,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -953,7 +1059,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>
               Propios</label>
@@ -963,7 +1069,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>
 Adoptados
@@ -974,7 +1080,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Hijastros (as)</label>
             </span>
@@ -983,7 +1089,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>
               Fallecidos</label>
@@ -1002,7 +1108,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -1011,7 +1117,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -1035,7 +1141,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -1044,7 +1150,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -1060,7 +1166,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -1069,7 +1175,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -1085,7 +1191,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -1094,7 +1200,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -1108,7 +1214,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -1117,7 +1223,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -1133,7 +1239,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -1142,7 +1248,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
@@ -1156,7 +1262,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>Si</label>
             </span>
@@ -1165,7 +1271,7 @@ Adoptados
                 type="Radio"
                 id="name"
                 name="name"
-                className="form-check-input"
+                className="form-check-input mx-1"
               />
               <label>No</label>
             </span>
