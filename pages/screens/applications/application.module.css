@@ -41,3 +41,14 @@
 .col{
     z-index: 9 !important;
 }
+
+
+@media screen and (max-width:768px) {
+    .col h1{
+        font-size: 7.0107137143vw;
+        margin-top: 100px;
+    }
+    .col p{
+        font-size: 2.3369045714vw;
+    }
+}

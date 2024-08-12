@@ -38,6 +38,7 @@
     align-items: center;
     right: 13.125vw;
     width: 34.375vw;
+    z-index: 999999 !important;
 }
 
 .box {
@@ -82,7 +83,7 @@
     }
 
     .left {
-        width: 100vw;
+        width: 78vw;
         height: 40vh;
         padding: 20px;
         background-position: center;

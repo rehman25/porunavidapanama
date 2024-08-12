@@ -32,9 +32,9 @@ const family = () => {
           <div className={`row ${style.circleRow}`}>
             <div className={`col-12 ${style.circlecCol}`}>
             {[
-                { count: 38, label: "BENEFITED FAMILIES" },
-                { count: 16, label: "BABIES AT HOME" },
-                { count: 4, label: "BABIES ON THE WAY" },
+                { count: 38, label: "FAMILIAS BENEFICIADAS" },
+                { count: 16, label: "BEBÉSEN CASA" },
+                { count: 4, label: "BEBÉS EN CAMINO" },
               ].map((item, index) => (
                 <div key={index} className={style.cricle}>
                   <h1>{item.count}</h1>

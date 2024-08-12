@@ -19,17 +19,17 @@ const modal = () => {
           </div>
           <div className={`col-12 ${style.col}`}>
             <div className={style.box}>
-              <h3>Important considerations:</h3>
+              <h3>Consideraciones importantes:</h3>
               <ul>
-                <li>Not having children.</li>
-                <li>Have a medical diagnosis that validates the need for in vitro fertilization (IVF) treatment.</li>
-                <li>Have a financial situation that justifies the aid they request.</li>
-                <li>Maintain membership in the social security fund or private insurance.</li>
-                <li>Be willing to participate in a medical and psychological evaluation.</li>
+                <li>No tener hijos.</li>
+                <li>Contar con un diagnóstico médico que valide la necesidad de un tratamiento de fecundación in vitro (FIV).</li>
+                <li>Tener una situación económica que justifique la ayuda que solicitan.</li>
+                <li>Mantener afiliación a la caja de seguro social o seguro privado.</li>
+                <li>Estar dispuestos a participar en una evaluación médica y psicológica.</li>
               </ul>
               <div className={style.btnRow}>
-                <button onClick={() => setShowModal(false)}>ACCEPT</button>
-                <button className={style.btn} onClick={() => setShowModal(false)}>GO BACK</button>
+                <button onClick={() => setShowModal(false)}>ACEPTAR</button>
+                <button className={style.btn} onClick={() => setShowModal(false)}>REGRESAR</button>
               </div>
             </div>
           </div>

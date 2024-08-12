@@ -17,13 +17,14 @@ const contact = () => {
                   <div className="row mt-4">
                          <div className="col-md-6">
                             <div className={`form-group ${style.formgroup}`}>
-                                <label>Name</label>
+                                <label>Nombre
+                                </label>
                                 <input type="text" className="form-control" />
                             </div>
                          </div>
-                         <div className="col-md-6">
+                         <div className={`col-md-6 ${style.resIN}`}>
                             <div className={`form-group ${style.formgroup}`}>
-                                <label>Last name</label>
+                                <label>Apellido</label>
                                 <input type="text" className="form-control" />
                             </div>
                          </div>
@@ -32,7 +33,7 @@ const contact = () => {
                   <div className="row mt-4">
                          <div className="col-md-12">
                             <div className={`form-group ${style.formgroup}`}>
-                                <label>Phone or Cell Phone</label>
+                                <label>Teléfono o Celular</label>
                                 <input type="text" className="form-control" />
                             </div>
                          </div>
@@ -40,7 +41,7 @@ const contact = () => {
                   <div className="row mt-4">
                          <div className="col-md-12">
                             <div className={`form-group ${style.formgroup}`}>
-                                <label>Email</label>
+                                <label>Correo Electrónico</label>
                                 <input type="text" className="form-control" />
                             </div>
                          </div>
@@ -48,7 +49,7 @@ const contact = () => {
                   <div className="row mt-4">
                          <div className="col-md-12">
                             <div className={`form-group ${style.formgroup}`}>
-                                <label>Email</label>
+                                <label>Mensaje</label>
                                 <textarea type="text" className="form-control" />
                             </div>
                          </div>
@@ -57,7 +58,7 @@ const contact = () => {
                          <div className="col-md-12">
                             <div className={`form-group ${style.formgroup2}`}>
 
-                                <button>Submit</button>
+                                <button>ENVIAR</button>
                             </div>
                          </div>
                   </div>

@@ -25,7 +25,7 @@ const Header = ({ color }) => {
             }`}
           >
             <Link href="../screens/generalIformation" className={style.Link}>
-              General information
+            Información General
             </Link>
           </div>
           <div
@@ -34,7 +34,7 @@ const Header = ({ color }) => {
             }`}
           >
             <Link href="../screens/ourFamily" className={style.Link}>
-              Our family
+            Nuestra Familia
             </Link>
           </div>
           <div
@@ -43,7 +43,7 @@ const Header = ({ color }) => {
             }`}
           >
             <Link href="../screens/applications" className={style.Link}>
-              Applications
+            Aplicaciones
             </Link>
           </div>
           <div
@@ -52,7 +52,7 @@ const Header = ({ color }) => {
             }`}
           >
             <Link href="../screens/contact" className={style.Link}>
-              Contact us
+            Contáctanos
             </Link>
           </div>
           <div
@@ -91,21 +91,21 @@ const Header = ({ color }) => {
                 <div className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}
                 >
                   <Link href="../screens/ourFamily" className={style.Link}>
-                    Our family
+                  Nuestra Familia
                   </Link>
                 </div>
                 <div
                  className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}
                 >
                   <Link href="../screens/applications" className={style.Link}>
-                    Applications
+                  Aplicaciones
                   </Link>
                 </div>
                 <div
                  className={` ${color === "id" ? style.HeaderColRes : style.HeaderColRes2 }`}
                 >
                   <Link href="../screens/contact" className={style.Link}>
-                    Contact us
+                  Contáctanos
                   </Link>
                 </div>
                 <div

@@ -167,6 +167,20 @@
     .colImage{
         flex-wrap: wrap;
     }
+    .content  h2{
+        font-size: 3.7825394286vw;
+    }
+    .content2  h2{
+        font-size: 3.7825394286vw;
+    }
+    .cricle p{
+        font-size: 1.9684522857vw;
+      
+    }
+    .NuestraImage{
+        width: 75.7291666667vw;
+        height: auto;
+    }
    
    
 }
@@ -187,11 +201,11 @@
         font-size: 5.2531344571vw;
     }
     .cricle p{
-        font-size: .9684522857vw;
+        /* font-size: .9684522857vw; */
       
     }
     .NuestraImage{
-        width: 50.5833333333vw;
+        width: 75.5833333333vw;
     }
    
    

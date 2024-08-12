@@ -82,7 +82,6 @@
 .col6 ul li a{
     text-decoration: none;
     color: white;
-
 }
 .childul{
     margin-top: 25px;
@@ -131,4 +130,79 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+@media screen and (max-width:480px) {
+    .col h1{
+        font-size: 12.010714vw;
+    }
+    .col p{
+        font-size: 4.010714vw;
+    }
+    .Generalmage{
+        width: 92.34375vw;
+        
+    }
+    .col6{
+        margin-left: 100px;
+    }
+    .footerImageRow{
+        padding: 20px;
+        padding-left: 0px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+
+@media screen and (max-width:787px) {
+    .col h1{
+        font-size: 14.010714vw;
+        
+    }
+    .col p{
+        font-size: 3.010714vw;
+    }
+    .Generalmage{
+        width: 77.34375vw;
+        
+    }
+    .col6{
+        margin-left: 25px;
+    }
+
+    .col6 h1{
+        border-radius: 25px;
+        color: #fff;
+        background-color: #e5b1b5;
+        font-weight: 500;
+        font-size: 2.426032vw;
+        line-height: 1.4260315429vw;
+        /* width: 44.875vw; */
+        height: 6.125vw;
+        padding: 2.729167vw 1.6666666667vw 2.2916666667vw;
+    
+    }
+
+    .col6 ul li {
+        font-size: 2.7vw;
+        line-height: 1.25;
+        max-width: 50.125vw;
+        padding-bottom: 1.5vw;
+        letter-spacing: 1px;
+    }
+    .childul li{
+        font-size: 1.7vw !important;
+        line-height: 1.25;
+        /* max-width: 50.125vw; */
+        padding-bottom: 1.5vw;
+        letter-spacing: 1.5px;
+    }
+    .col6 p{
+        font-size: 2.02496vw;
+    }
 }
