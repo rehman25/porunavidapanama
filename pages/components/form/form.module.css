@@ -163,7 +163,7 @@
     }
 
     .check label {
-        margin-left: 0;
+        margin-left: 2px;
     }
 }
 
@@ -186,8 +186,8 @@
 
     .formgroupbtn button {
         width: 80vw;
-        height: 6vw;
-        font-size: 2.5vw;
+        height: 8vw;
+        font-size: 4vw;
     }
 
     .check input {
