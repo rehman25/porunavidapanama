@@ -10,8 +10,8 @@ const Application = () => {
       <Modal  />
       <Header color={""} />
       <div className={`container-fluid ${style.container}`}>
-        <div className="container">
-          <div className={`row ${style.row}`}>
+        <div className="container ">
+          <div className={`row  ${style.row}`}>
             <div className={`col-lg-12 ${style.col}`}>
               <h1>Applications</h1>
               <p>

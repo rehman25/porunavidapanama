@@ -1,4 +1,5 @@
-.form{
+/* Base styles (for larger screens) */
+.form {
     background-color: #f7f7f7;
     border-radius: 30px;
     margin: auto auto 18.9583333333vw;
@@ -6,40 +7,44 @@
     padding: 4.5833333333vw 4.5833333333vw 6.4583333333vw;
     z-index: 9;
 }
-.formgroup label{
+
+.formgroup label,
+.formgroup2 label {
     color: #7f7e7e;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
-.formgroup h1{
+.formgroup h1,
+.formgroup2 h1 {
     color: #7f7e7e;
     font-weight: 600;
     font-size: 1.6042854857vw;
-
-} 
-
-.formgroup2 label{
-    color: #7f7e7e;
-    font-weight: 600;
 }
-.formgroup input{
+
+.formgroup input,
+.formgroup textarea,
+.formgroup select,
+.formgroup2 input {
     background-color: #fff;
     border-color: #dbdbdb;
     border-radius: 15px;
     color: #363636;
 }
 
-.formgroup p{
+.formgroup p {
     color: #7f7e7e;
     font-size: .8912697143vw;
     font-weight: 600;
 }
-.formgroupbtn{
+
+.formgroupbtn {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.formgroupbtn button{
+
+.formgroupbtn button {
     background-color: #e5b1b5;
     border: none;
     color: #fff;
@@ -51,58 +56,123 @@
     border-radius: 25px;
     cursor: pointer;
 }
-.formgroup textarea{
-    background-color: #fff;
-    border-color: #dbdbdb;
-    border-radius: 15px;
-    color: #363636;
-}
 
-.formgroup select{
-    background-color: #fff;
-    border-color: #dbdbdb;
-    border-radius: 15px;
-    color: #363636;
-    
-}
-
-.check input{
+.check input {
     margin-left: 10px;
 }
-.check label{
+
+.check label {
     margin-left: 2px;
+    letter-spacing: 1px;
 }
 
-.formgroup2{
+.formgroup2 {
     display: flex;
     flex-direction: column;
 }
 
-.formgroup2 input{
-    background-color: #fff;
-    border-color: #dbdbdb;
-    border-radius: 15px;
-    color: #363636;
-}
-
-.formgroup2 div{
+.formgroup2 div {
     display: flex !important;
     flex-direction: row !important;
 }
 
-.formgroup3{
+.formgroup3,
+.formColumn {
     display: flex;
     flex-direction: column;
 }
 
-.formColumn{
-    display: flex;
-    flex-direction: column;
-}
-
-.formColHeading{
+.formColHeading {
     color: #7f7e7e;
     font-weight: 600;
     font-size: 1.6042854857vw;
     margin: 40px 0px;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .form {
+        width: 70vw;
+        padding: 4vw 4vw 6vw;
+    }
+
+    .formgroup h1,
+    .formgroup2 h1,
+    .formColHeading {
+        font-size: 2.5vw;
+    }
+
+    .formgroup p {
+        font-size: .9vw;
+    }
+
+    .formgroupbtn button {
+        width: 20vw;
+        height: 4vw;
+        font-size: 1.5vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .form {
+        width: 90vw;
+        padding: 5vw 5vw 7vw;
+        margin: 10vw auto;
+    }
+
+    .formgroup h1,
+    .formgroup2 h1,
+    .formColHeading {
+        font-size: 3.5vw;
+    }
+
+    .formgroup p {
+        font-size: 1.2vw;
+    }
+
+    .formgroupbtn button {
+        width: 60vw;
+        height: 5vw;
+        font-size: 2vw;
+    }
+
+    .check input {
+        margin-left: 5px;
+    }
+
+    .check label {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .form {
+        width: 95vw;
+        padding: 6vw 6vw 8vw;
+        margin: 5vw auto;
+    }
+
+    .formgroup h1,
+    .formgroup2 h1,
+    .formColHeading {
+        font-size: 4vw;
+    }
+
+    .formgroup p {
+        font-size: 1.5vw;
+    }
+
+    .formgroupbtn button {
+        width: 80vw;
+        height: 6vw;
+        font-size: 2.5vw;
+    }
+
+    .check input {
+        margin-left: 3px;
+    }
+
+    .check label {
+        margin-left: 0;
+    }
 }

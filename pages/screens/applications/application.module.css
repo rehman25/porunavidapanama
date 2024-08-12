@@ -21,11 +21,13 @@
     color: white !important;
     margin-top: 280px;
     text-align: center;
+    letter-spacing: 1px;
 }
 
 .col p{
     text-align: center;
     width: 47.3958333333vw;
+    letter-spacing: 1px;
     margin: auto auto 3.3333333333vw;
     font-size: 1.3369045714vw;
     line-height: 1.25;
@@ -33,4 +35,9 @@
     color: #fff;
     margin-top: 50px;
 
+
+}
+
+.col{
+    z-index: 9 !important;
 }

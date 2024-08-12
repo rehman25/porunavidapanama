@@ -1,5 +1,5 @@
-.container{
-    background-color: rgba(10, 10, 10, .86);
+.container {
+    background-color: rgba(10, 10, 10, 0.86);
     opacity: 2;
     align-items: center;
     flex-direction: column;
@@ -8,10 +8,9 @@
     position: fixed;
     z-index: 40;
     width: 100%;
- 
 }
 
-.col{
+.col {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -20,10 +19,10 @@
     height: 100vh;
 }
 
-.box{
+.box {
     background-color: #fff;
     border-radius: 6px;
-    box-shadow: 0 .5em 1em -.125em rgba(10, 10, 10, .1), 0 0 0 1px rgba(10, 10, 10, .02);
+    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.02);
     color: #4a4a4a;
     display: block;
     padding: 1.25rem;
@@ -33,14 +32,15 @@
     width: 40vw;
 }
 
-.box h3{
+.box h3 {
     font-size: 1.6042854857vw;
     font-weight: 600;
     color: #b66d7d;
     margin-bottom: 2.0833333333vw;
     margin-left: 2.0833333333vw;
 }
-.box ul li{
+
+.box ul li {
     background: url("../../images/marker_E5B1B5.svg") no-repeat left 5px;
     padding-left: 2.5vw;
     background-size: 1.25vw;
@@ -54,7 +54,7 @@
     list-style: none;
 }
 
-.btnRow button{
+.btnRow button, .btnRow .btn {
     flex: 1 1;
     width: 50%;
     font-size: 1.2477776vw;
@@ -66,33 +66,128 @@
     cursor: pointer;
     text-transform: uppercase;
     margin-right: 1.4583333333vw;
+}
+
+.btnRow button {
     background-color: #e5b1b5;
 }
-.btnRow .btn{
-    flex: 1 1;
-    width: 50%;
-    font-size: 1.2477776vw;
-    font-weight: 500;
-    color: #fff;
-    border-radius: 30px;
-    border: none;
-    padding: 1.0416666667vw;
-    cursor: pointer;
-    text-transform: uppercase;
-    margin-right: 1.4583333333vw;
+
+.btnRow .btn {
     background-color: #7f7e7e;
 }
-.btnRow{
+
+.btnRow {
     display: flex;
     margin-left: 2.0833333333vw;
-
 }
-.col12{
+
+.col12 {
     display: flex;
     justify-content: end;
     padding: 20px;
     padding-bottom: 0px !important;
 }
-.cross{
+
+.cross {
     cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .box {
+        width: 60vw;
+    }
+
+    .box h3 {
+        font-size: 2.5vw;
+        margin-bottom: 3vw;
+        margin-left: 3vw;
+    }
+
+    .box ul li {
+        padding-left: 4vw;
+        background-size: 2vw;
+        font-size: 1.5vw;
+        line-height: 2vw;
+        min-height: 2vw;
+        margin-bottom: 2.5vw;
+    }
+
+    .btnRow button, .btnRow .btn {
+        font-size: 2vw;
+        padding: 2vw;
+        margin-right: 2vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .col {
+        flex-direction: column;
+    }
+
+    .box {
+        width: 80vw;
+        padding: 5vw 6vw;
+    }
+
+    .box h3 {
+        font-size: 4vw;
+        margin-bottom: 5vw;
+        margin-left: 5vw;
+    }
+
+    .box ul li {
+        padding-left: 6vw;
+        background-size: 3vw;
+        font-size: 2.5vw;
+        line-height: 3vw;
+        min-height: 3vw;
+        margin-bottom: 3.5vw;
+    }
+
+    .btnRow button, .btnRow .btn {
+        font-size: 3vw;
+        padding: 3vw;
+        margin-right: 3vw;
+        width: 100%;
+        margin-bottom: 3vw;
+    }
+
+    .btnRow {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .col12 {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .box {
+        width: 90vw;
+        padding: 7vw 8vw;
+    }
+
+    .box h3 {
+        font-size: 6vw;
+        margin-bottom: 6vw;
+        margin-left: 6vw;
+    }
+
+    .box ul li {
+        padding-left: 8vw;
+        background-size: 4vw;
+        font-size: 4vw;
+        line-height: 4vw;
+        min-height: 4vw;
+        margin-bottom: 5vw;
+    }
+
+    .btnRow button, .btnRow .btn {
+        font-size: 4vw;
+        padding: 4vw;
+        width: 100%;
+        margin-bottom: 4vw;
+    }
 }

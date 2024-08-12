@@ -28,10 +28,10 @@ const index = () => {
             </div>
           </div>
           <div className={`row ${style.row2}`}>
-            <div className="col-lg-1">
+            <div className="col-1">
               <Image src={LittleHeart} />
             </div>
-            <div className={`col-lg-6 ${style.col6}`}>
+            <div className={`col-6 ${style.col6}`}>
               <h1>Application process:</h1>
               <ul>
                 <li>
@@ -62,10 +62,10 @@ const index = () => {
             </div>
           </div>
           <div className={`row ${style.row2}`}>
-            <div className="col-lg-1">
+            <div className="col-1">
               <Image src={LittleHeart} />
             </div>
-            <div className={`col-lg-6 ${style.col6}`}>
+            <div className={`col-6 ${style.col6}`}>
               <h1>Important considerations:</h1>
               <ul>
                 <li>Not having children.</li>
@@ -89,10 +89,10 @@ const index = () => {
             </div>
           </div>
           <div className={`row ${style.row2}`}>
-            <div className="col-lg-1">
+            <div className="col-1">
               <Image src={LittleHeart} />
             </div>
-            <div className={`col-lg-6 ${style.col6}`}>
+            <div className={`col-6 ${style.col6}`}>
               <h1>If you are a selected couple:</h1>
               <ul>
                 <li>
