@@ -3,10 +3,16 @@ import React,{useState} from 'react'
 import style from './modal.module.css'
 import { GiTireIronCross } from "react-icons/gi";
 import Link from 'next/link';
+import { useRouter } from 'next/router';
+
 
 
 const modal = () => {
   const [showModal, setShowModal] = useState(true);
+  const router = useRouter();
+  const handleGoBack = () => {
+    router.back();  
+  };
 
 
 
@@ -16,7 +22,7 @@ const modal = () => {
       <div className={`container-fluid ${style.container}`}>
         <div className={`row ${style.row}`}>
           <div className={`col-12 ${style.col12}`}>
-            <GiTireIronCross size={24} color="white" className={style.cross} />
+            <GiTireIronCross size={24} color="white" className={style.cross} onClick={handleGoBack} />
           </div>
           <div className={`col-12 ${style.col}`}>
             <div className={style.box}>
@@ -30,7 +36,7 @@ const modal = () => {
               </ul>
               <div className={style.btnRow}>
                 <button onClick={() => setShowModal(false)}>ACEPTAR</button>
-                <Link className={style.btn} href={"/"}>REGRESAR</Link>
+                <button className={style.btn} onClick={handleGoBack}>REGRESAR</button>
               </div>
             </div>
           </div>

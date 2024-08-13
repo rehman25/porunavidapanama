@@ -29,7 +29,7 @@ const family = () => {
         <div className="container">
           <div className={style.row}>
             <div className={`col-lg-12 ${style.col}`}>
-              <h1>Our Family</h1>
+              <h1>Nuestra Familia</h1>
             </div>
           </div>
           <div className={`row ${style.circleRow}`}>
